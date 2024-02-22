@@ -1,3 +1,73 @@
-body {
+html, body {
     padding-top: 5rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    height: 100%;
 }
+.top{
+    background-color: mediumseagreen;
+    height: 100%;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+
+.propic{
+    width: 205px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.bottom{
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom p{
+    padding-top: 1.5%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    margin-left: 10%;
+    margin-right: 50%;
+    padding-right: 20%;
+}
+
+.item1, .item2, .item3{
+    padding: 10px;
+    margin: 10px;
+    float: right;
+}
+
+#follow{
+    position: relative;
+    align-content: center;
+    background-color: limegreen;
+    color: white;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#follow:hover{
+    opacity: 0.8;
+}
+
+#footer{
+    position: relative;
+}
+

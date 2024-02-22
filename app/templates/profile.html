@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block main %}
+    <div class="top">
+        <img src="{{ url_for('static', filename='me.jpg')}}" class="propic">
+        <h1>Carrissa Smith</h1>
+        <p>@c_smith <br> Kingston, Jamaica <br> {{ date_joined }}</p>
+    </div>
+    <div class="bottom">
+        <p>I am Carrissa and I love dogs, God and family. I am a dog mom of a beautiful mixed breed girl. I am a final year Computer Science student.</p></li>
+            <div class="flex-container">
+                <div class="item1">3 <br> <h4>Posts</h4></div>
+                <div class="item2">1,200 <br> <h4>Following</h4></div>
+                <div class="item3">899 <br> <h4>Followers</h4></div>
+            </div>
+            <button id="follow">Follow</button>
+    </div>
+{% endblock %}
